@@ -14,6 +14,7 @@ Data Entry Freelancer @ Jumia Food
 - [project code](https://github.com/BrianGwayi/Apache-Airflow/blob/main/taskflow_api.py)
 - [full description](https://github.com)
 ![dag](assets/css/1_M-yvjMW48kSoVpKOx6abmw.png)
+![dag](assets/css/code_I.png)
 - Data Management
 - - Database Management
   - Database/Datawarehouse Design
