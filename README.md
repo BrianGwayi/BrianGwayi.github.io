@@ -3,10 +3,10 @@
 Business Information Technology, Bsc
 
 ### Work Experience
-Data Lead @ Afriama </b>
-Business Intelligence Analyst @ Absa Bank </b>
-Officer Credit Operation @ Co-operative Bank </b>
-Data Entry Freelancer @ Jumia Food </b>
+Data Lead @ Afriama  
+Business Intelligence Analyst @ Absa Bank   
+Officer Credit Operation @ Co-operative Bank  
+Data Entry Freelancer @ Jumia Food  
 
 ### Big Impact Projeccts
 - Data Pipeline Orchestration 
