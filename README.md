@@ -13,8 +13,6 @@ Use case: Programatically build data pipeline in airflow
 Tech stack used: PostgreSQL Database, Python Version 3.12, Apache Airflow
 - [project code](https://github.com)
 - [full description](https://github.com)
-
-- Airflow_Banner.png
 ![dag](assets/css/edge_label_example.png)
 - Data Management
 - - Database Management
