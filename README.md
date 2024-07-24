@@ -9,8 +9,8 @@ Officer Credit Operation @ Co-operative Bank
 Data Entry Freelancer @ Jumia Food  
 ### Big Impact Projects
 ![Book logo](assets/css/bannerII.png)
-![Book log](assets/css/edge_label_example.png)
 - Airflow_Banner.png
+![dag](assets/css/edge_label_example.png)
 - Data Management
 - - Database Management
   - Database/Datawarehouse Design
