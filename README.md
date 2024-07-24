@@ -9,10 +9,10 @@ Officer Credit Operation,Co-operative Bank
 Data Entry Freelancer, Jumia Food
 
 ### Big Impact Projeccts
-- Data Pipeline Orchestration
-- Data Management
-- Reporting
-- Visualisation
-- Forecasting and predictive Analysis
+- Data Pipeline Orchestration </b>
+- Data Management </b>
+- Reporting </b>
+- Visualisation </b>
+- Forecasting and predictive Analysis </b>
 
 ### Projects
