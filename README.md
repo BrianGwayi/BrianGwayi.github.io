@@ -10,7 +10,7 @@ Data Entry Freelancer @ Jumia Food
 
 ### Big Impact Projects
 - Data Pipeline Orchestration
-![Book logo](/BrianGwayi.github.io/assets/css/Airflow_Banner.png)
+![Book logo](assets/css/Airflow_Banner.png)
 - Airflow_Banner.png
 - Data Management
 - - Database Management
