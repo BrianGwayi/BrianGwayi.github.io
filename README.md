@@ -9,7 +9,7 @@ Officer Credit Operation @ Co-operative Bank
 Data Entry Freelancer @ Jumia Food  
 ### Big Impact Projects
 ![Book logo](assets/css/bannerII.png)
-**Use case:** Programatically build data pipeline in airflow  
+**Use case:** Programatically build data pipeline in Apache Airflow + Python  
 **Tech stack used:** PostgreSQL Database, Python Version 3.12, Apache Airflow
 - [project code](https://github.com)
 - [full description](https://github.com)
