@@ -12,6 +12,9 @@ Data Entry Freelancer @ Jumia Food
 - Data Pipeline Orchestration
 - [link] (https://github.com)
 - Data Management
+- - Database Management
+  - Database/Datawarehouse Design
+  - DBaas - (AWS, Oracle, Azure)
 - Reporting
 - Visualisation
 - Forecasting and predictive Analysis
