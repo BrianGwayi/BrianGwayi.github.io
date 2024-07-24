@@ -8,11 +8,15 @@ Business Intelligence Analyst @ Absa Bank
 Officer Credit Operation @ Co-operative Bank  
 Data Entry Freelancer @ Jumia Food  
 
-### Big Impact Projeccts
+### Big Impact Projects
 - Data Pipeline Orchestration 
 - Data Management
 - Reporting
 - Visualisation
 - Forecasting and predictive Analysis
 
-### Projects
+### Tech Stack
+- Databases:Oracle 9I/10g, DB2, PostgreSQL, MySQL, SQL Server
+- Reporting:Power BI,Tableau, Looker
+- Orchestration and Integration: Kafka, Airflow,Talend
+- Languages: Python, Unix Shell Script, SQL and PL/SQL
