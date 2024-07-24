@@ -17,9 +17,10 @@ Data Entry Freelancer @ Jumia Food
 ![dag](assets/css/code_I.png)
 - Data Management
 - - Database Management
-  - Database/Datawarehouse Design
+Kimball's Data Warehouse Design 
   - DBaas - (AWS, Oracle, Azure)
 - Reporting
+![dag](assets/css/319170147-a39ac9b8-2d02-435e-b2d2-63497543bbc2.png)
 - Visualisation
 - Forecasting and predictive Analysis
 - taskflow_api.py
