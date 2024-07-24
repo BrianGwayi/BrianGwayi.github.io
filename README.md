@@ -13,7 +13,7 @@ Data Entry Freelancer @ Jumia Food
 **Tech stack used:** PostgreSQL Database, Python Version 3.12, Apache Airflow
 - [project code](https://github.com)
 - [full description](https://github.com)
-![dag](assets/css/edge_label_example.png)
+![dag](assets/css/1_M-yvjMW48kSoVpKOx6abmw.png)
 - Data Management
 - - Database Management
   - Database/Datawarehouse Design
