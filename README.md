@@ -8,7 +8,9 @@
 Apache Airflow® is an open-source platform for developing, scheduling, and monitoring batch-oriented workflows. Airflow’s extensible Python framework enables you to build workflows connecting with virtually any technology. A web interface helps manage the state of your workflows. Airflow is deployable in many ways, varying from a single process on your laptop to a distributed setup to support even the biggest workflows  
 
 **Tech stack used:** PostgreSQL Database, Python Version 3.12, Apache Airflow
+![dag](assets/css/arch-diag-basic.png)
 ![dag](assets/css/1_M-yvjMW48kSoVpKOx6abmw.png)
+
 - **Instantiate a DAG**
 ![dag](assets/css/dag_ui.png)
 - Defining task
