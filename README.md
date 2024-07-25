@@ -16,6 +16,12 @@ Data Entry Freelancer @ Jumia Food
 - [project code](https://github.com/BrianGwayi/Apache-Airflow/blob/main/taskflow_api.py)
 - [full description](https://github.com)
 ![daG](assets/css/DWH.png)
+- Identify business process
+- Identify the grain
+- identify the dimension
+- identify the facts
+
+
 - Data Management
 - - Database Management
 Kimball's Data Warehouse Design 
