@@ -10,6 +10,19 @@ Apache Airflow® is an open-source platform for developing, scheduling, and moni
 **Tech stack used:** PostgreSQL Database, Python Version 3.12, Apache Airflow
 
 ![dag](assets/css/arch-diag-basic.png)
+## Set up PotgreSQL Database - connection via Terminal
+```
+Command: sudo sudo -u postgres psql
+Output: [sudo] password for gwayi:
+# Enter password
+Output: postgres=#
+# Enter SQL statement to create database
+SELECT 'CREATE DATABASE listing_db' 
+WHERE NOT EXISTS (SELECT FROM pg_database WHERE datname = 'listing_db')\gexec
+CREATE DATABASE
+# Note: PostgreSQL does not support IF NOT EXIST
+
+```
 
 ## **Instantiate a DAG**
 ```
