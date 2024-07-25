@@ -9,6 +9,9 @@ Apache Airflow® is an open-source platform for developing, scheduling, and moni
 
 **Tech stack used:** PostgreSQL Database, Python Version 3.12, Apache Airflow
 
+![dag](assets/css/arch-diag-basic.png)
+
+## **Instantiate a DAG**
 ```
 default_args={‘Owner’ : ‘gwayi’}
 @dag(
@@ -20,10 +23,6 @@ catchup=False, # run/not run missed intervals
 tags=['Team A'], # to categorize and filter dags in UI
 )
 ```
-
-![dag](assets/css/arch-diag-basic.png)
-
-## **Instantiate a DAG**
 ![dag](assets/css/instatiate_dagII.png)
 
 ## **Defining task**
