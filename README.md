@@ -11,7 +11,7 @@ Apache Airflow® is an open-source platform for developing, scheduling, and moni
 ![dag](assets/css/arch-diag-basic.png)
 
 ## **Instantiate a DAG**
-![dag](assets/css/instatiate_dag.png)
+![dag](assets/css/instatiate_dagII.png)
 ![dag](assets/css/webserver.png)
 - Defining task
 - Setting up dependencies
