@@ -15,7 +15,7 @@ Data Entry Freelancer @ Jumia Food
 ![dag](assets/css/code_I.png)
 - [project code](https://github.com/BrianGwayi/Apache-Airflow/blob/main/taskflow_api.py)
 - [full description](https://github.com)
-![dag](assets/css/Screenshot from 2024-07-25 03-10-06.png)
+![daG](assets/css/Screenshot from 2024-07-25 03-10-06.png)
 - Data Management
 - - Database Management
 Kimball's Data Warehouse Design 
