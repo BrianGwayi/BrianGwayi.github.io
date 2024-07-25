@@ -16,7 +16,7 @@ Data Entry Freelancer @ Jumia Food
 - [project code](https://github.com/BrianGwayi/Apache-Airflow/blob/main/taskflow_api.py)
 - [full description](https://github.com)
 ![daG](assets/css/DWH.png)
-**Use case:** Designing and Implementing Retail Data Warehouse 
+**Use case:** Designing and Implementing Retail Data Warehouse  
 **Tech stack used:** Lucid Chart, AWS Redshift
 - Identify business process - sales in a retail company.
 - Identify the grain - line item per order.
