@@ -24,6 +24,7 @@ tags=['Team A'], # to categorize and filter dags in UI
 )
 ```
 ## **Defining task**
+### Extract
 ```
 def _taskflow_api_():
 
@@ -32,8 +33,9 @@ def _taskflow_api_():
         response = requests.get("https://www.myjobmag.co.ke/aggregate_feed.xml")
         xml_feed = xmltodict.parse(response.text)
         return xml_feed['rss']['channel']['item']
-    def sourceII():
-        print('sourceII')
+```
+### Transform
+```
     @task
     def transform(val):
         #response = ti.xcom_pull(task_ids="extract")
@@ -41,8 +43,10 @@ def _taskflow_api_():
         #print(val)
         tf = pd.DataFrame(val)
         return tf.astype({'id':'int64','pubDate':'datetime64[ns]'})
-
-    @task
+```
+### Load
+```
+ @task
     def load(new_val):
         # Establish a connection to your PostgreSQL database
         conn = psycopg2.connect(
@@ -55,17 +59,11 @@ def _taskflow_api_():
         with conn.cursor() as cursor:
             x = new_val.to_dict(orient="records")
             execute_values(conn, new_val, 'listing')
-              
             conn.commit()
-            print(new_val)
 
-    #extract() >> transform() >> load()
     val = extract()
     new_val = transform(val)
     load_val = load(new_val)
-    srcII = sourceII()
-    #val >> new_val >> load_val
-    #srcII >> 
 _taskflow_api_ = _taskflow_api_()
 ```
 ![dag](assets/css/webserver.png)
