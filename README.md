@@ -23,19 +23,17 @@ catchup=False, # run/not run missed intervals
 tags=['Team A'], # to categorize and filter dags in UI
 )
 ```
-## **Defining task**
-### Extract
 ```
 def _taskflow_api_():
-
+    # Task 1 - Extract
     @task
     def extract():
         response = requests.get("https://www.myjobmag.co.ke/aggregate_feed.xml")
         xml_feed = xmltodict.parse(response.text)
         return xml_feed['rss']['channel']['item']
 ```
-### Transform
 ```
+    # Task 2 - Transform
     @task
     def transform(val):
         #response = ti.xcom_pull(task_ids="extract")
@@ -44,8 +42,8 @@ def _taskflow_api_():
         tf = pd.DataFrame(val)
         return tf.astype({'id':'int64','pubDate':'datetime64[ns]'})
 ```
-### Load
 ```
+# Task 3 - Load
  @task
     def load(new_val):
         # Establish a connection to your PostgreSQL database
