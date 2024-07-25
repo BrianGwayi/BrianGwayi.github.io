@@ -12,7 +12,6 @@ Data Entry Freelancer @ Jumia Food
 **Use case:** Programatically build data pipeline in Apache Airflow + Python  
 **Tech stack used:** PostgreSQL Database, Python Version 3.12, Apache Airflow
 ![dag](assets/css/1_M-yvjMW48kSoVpKOx6abmw.png)
-![dag](assets/css/code_I.png)
 - [project code](https://github.com/BrianGwayi/Apache-Airflow/blob/main/taskflow_api.py)
 - [full description](https://github.com)
 ![daG](assets/css/DWH.png)
