@@ -16,10 +16,11 @@ Data Entry Freelancer @ Jumia Food
 - [project code](https://github.com/BrianGwayi/Apache-Airflow/blob/main/taskflow_api.py)
 - [full description](https://github.com)
 ![daG](assets/css/DWH.png)
-- Identify business process
-- Identify the grain
-- identify the dimension
-- identify the facts
+- Identify business process - sales in a retail company.
+- Identify the grain - line item per order.
+- identify the dimension - customer, store, product, date...
+- identify the facts - price per unit,cost per unit, quantity..
+- [sql code](https://github.com) [Details(https://github.com]
 
 
 - Data Management
