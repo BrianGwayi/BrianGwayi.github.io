@@ -1,49 +1,6 @@
 # Big Impact Projects
 ![Book logo](assets/css/bannerII.png)
-**Case** Extract,Transform and Load job listings from myjobmag.co.ke into a PostgreSQL database.  def _taskflow_api_():
-
-    @task
-    def extract():
-        response = requests.get("https://www.myjobmag.co.ke/aggregate_feed.xml")
-        xml_feed = xmltodict.parse(response.text)
-        return xml_feed['rss']['channel']['item']
-    def sourceII():
-        print('sourceII')
-    @task
-    def transform(val):
-        #response = ti.xcom_pull(task_ids="extract")
-        #logging.info(response)
-        #print(val)
-        tf = pd.DataFrame(val)
-        return tf.astype({'id':'int64','pubDate':'datetime64[ns]'})
-
-    @task
-    def load(new_val):
-        # Establish a connection to your PostgreSQL database
-        conn = psycopg2.connect(
-            database='jobs_pipelines',
-            user='postgres',
-            password='p@ssword',
-            host='127.0.0.1',
-            port='5432'
-            )
-        with conn.cursor() as cursor:
-            x = new_val.to_dict(orient="records")
-            execute_values(conn, new_val, 'listing')
-              
-            conn.commit()
-            print(new_val)
-
-    
-
-    #extract() >> transform() >> load()
-    val = extract()
-    new_val = transform(val)
-    load_val = load(new_val)
-    srcII = sourceII()
-    #val >> new_val >> load_val
-    #srcII >> 
-_taskflow_api_ = _taskflow_api_()
+**Case** Extract,Transform and Load job listings from myjobmag.co.ke into a PostgreSQL database.
 **Deliverable I** Programatically build a data pipeline w/ Python.  
 **Deliverable II** Schedule, monitor and manage the entire workflow using Apache Airflow.  
 **Deliverable III** Set up PostgreSQL database.  
@@ -101,8 +58,6 @@ def _taskflow_api_():
               
             conn.commit()
             print(new_val)
-
-    
 
     #extract() >> transform() >> load()
     val = extract()
