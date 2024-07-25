@@ -19,8 +19,8 @@ Apache Airflow® is an open-source platform for developing, scheduling, and moni
 ![dag](assets/css/webserver.png)
 
 
-- [project code](https://github.com/BrianGwayi/Apache-Airflow/blob/main/taskflow_api.py)
-- [full description](https://github.com)
+- [Code](https://github.com/BrianGwayi/Apache-Airflow/blob/main/taskflow_api.py)
+- [full Documentation](https://github.com)
 ![daG](assets/css/DWH.png)
 **Use case:** Designing and Implementing Retail Data Warehouse  
 **Tech stack used:** Lucid Chart, AWS Redshift
