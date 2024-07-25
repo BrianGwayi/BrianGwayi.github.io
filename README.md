@@ -12,9 +12,12 @@ Apache Airflow® is an open-source platform for developing, scheduling, and moni
 
 ## **Instantiate a DAG**
 ![dag](assets/css/instatiate_dagII.png)
+
+## **Defining task**
+
+![dag](assets/css/instatiate_task.png)
 ![dag](assets/css/webserver.png)
-- Defining task
-- Setting up dependencies
+
 
 - [project code](https://github.com/BrianGwayi/Apache-Airflow/blob/main/taskflow_api.py)
 - [full description](https://github.com)
