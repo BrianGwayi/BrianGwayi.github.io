@@ -1,9 +1,9 @@
 # Big Impact Projects
 ![Book logo](assets/css/bannerII.png)
-**Case** Extract,Transform and Load job listings from myjobmag.co.ke into a PostgreSQL database.
-**Deliverable I** Programatically build a data pipeline w/ Python.
-**Deliverable II** Schedule, monitor and manage the entire workflow using Apache Airflow.
-**Deliverable III** Set up PostgreSL database.
+**Case** Extract,Transform and Load job listings from myjobmag.co.ke into a PostgreSQL database.  
+**Deliverable I** Programatically build a data pipeline w/ Python.  
+**Deliverable II** Schedule, monitor and manage the entire workflow using Apache Airflow.  
+**Deliverable III** Set up PostgreSL database.  
 
 + Python to get job lisitng from myjobmag.co.ke and push data to a PostgreSQL database
 Apache Airflow® is an open-source platform for developing, scheduling, and monitoring batch-oriented workflows. Airflow’s extensible Python framework enables you to build workflows connecting with virtually any technology. A web interface helps manage the state of your workflows. Airflow is deployable in many ways, varying from a single process on your laptop to a distributed setup to support even the biggest workflows  
