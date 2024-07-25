@@ -17,6 +17,7 @@ start_date=datetime(2024, 7, 20), # start date for the dag
 catchup=False, # run/not run missed intervals
 tags=['Team A'], # to categorize and filter dags in UI
 )```
+
 ![dag](assets/css/arch-diag-basic.png)
 
 ## **Instantiate a DAG**
