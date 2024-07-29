@@ -1,4 +1,3 @@
-# Big Impact Projects
 ![Book logo](assets/css/bannerII.png)
 **Case** Extract,Transform and Load job listings from myjobmag.co.ke into a PostgreSQL database.  
 **Deliverable I** Programatically build a data pipeline w/ Python.  
