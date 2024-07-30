@@ -1,6 +1,6 @@
 # Data Orchestration in Airflow
 ![airflowbanner](assets/imgs/afbanner.png)
-Apache Airflow® is an open-source platform for developing, scheduling, and monitoring batch-oriented workflows. Airflow’s extensible Python framework enables you to build workflows connecting with virtually any technology. A web interface helps manage the state of your workflows. Airflow is deployable in many ways, varying from a single process on your laptop to a distributed setup to support even the biggest workflows.
+Apache Airflow® is an open-source platform for developing, scheduling, and monitoring batch-oriented workflows. Airflow’s extensible Python framework enables you to build workflows connecting with virtually any technology. A web interface helps manage the state of your workflows. Airflow is deployable in many ways, varying from a single process on your laptop to a distributed setup to support even the biggest workflows.  
 **Code Snippet*
 ```
 default_args={‘Owner’ : ‘gwayi’}
@@ -13,8 +13,10 @@ catchup=False, # run/not run missed intervals
 tags=['Team A'], # to categorize and filter dags in UI
 )
 ```
-![airflowbanner](assets/imgs/image2.webp)
 ![airflowbanner](assets/imgs/graph.png)
+
+[job_lisitng pipeline](https://github.com/BrianGwayi/Simple_Airflow_Pipeline)
+[adventure_works](https://github.com/BrianGwayi/Apache-Airflow)
 
 Apache Airflow® is an open-source platform for developing, scheduling, and monitoring batch-oriented workflows. Airflow’s extensible Python framework enables you to build workflows connecting with virtually any technology. A web interface helps manage the state of your workflows. Airflow is deployable in many ways, varying from a single process on your laptop to a distributed setup to support even the biggest workflows  
 
