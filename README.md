@@ -13,8 +13,10 @@ catchup=False, # run/not run missed intervals
 tags=['Team A'], # to categorize and filter dags in UI
 )
 ```
+## Airflow UI
 ![airflowbanner](assets/imgs/graph.png)
 
+## Projects
 [job_lisitng pipeline](https://github.com/BrianGwayi/Simple_Airflow_Pipeline)  
 [adventure_works](https://github.com/BrianGwayi/Apache-Airflow)
 
@@ -28,7 +30,6 @@ the business to long term Sucess.
 Landing Page
 
 ![PBIDesktop_OlUKNlaaPm](https://github.com/BrianGwayi/Coffee-Shop-Revenue-PowerBI/assets/115585139/33c60224-0e7f-453c-9233-c07c251fdc48)
-
 
 Detailed Page
 
