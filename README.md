@@ -22,10 +22,7 @@ tags=['Team A'], # to categorize and filter dags in UI
 
 # Reporting - Dashboard Development
 ## Microsoft Power BI
-This simple revenue report will help the client; a coffee retailer understand their
-financial health and whether they are meeting revenue targets. Keeping a close eye on previous
-month revenue also help identify growth opportunities, resource allocation and ultimately lead
-the business to long term Sucess.
+This simple revenue report tracks revenue targets. Keeping a close eye on previous month revenue also help identify growth opportunities, resource allocation and ultimately lead the business to long term success.  
 
 Landing Page
 
