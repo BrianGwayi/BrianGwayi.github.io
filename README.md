@@ -1,4 +1,4 @@
-![Book logo](assets/css/bannerII.png)
+![airflowbanner](assets/imgs/banner.png)
 **Case** Extract,Transform and Load job listings from myjobmag.co.ke into a PostgreSQL database.  
 **Deliverable I** Programatically build a data pipeline w/ Python.  
 **Deliverable II** Schedule, monitor and manage the entire workflow using Apache Airflow.  
