@@ -488,7 +488,7 @@ footer p {
     color: #fff;
 }
 
-p .summary {
+.summary-text {
     font-family: Inter;
-    font-size: 1rem;
+    font-size: 12px;
 }
