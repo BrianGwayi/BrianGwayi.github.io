@@ -478,3 +478,17 @@ footer p {
         width: 100%;
     }
 }
+
+/* MY STYLES */
+.highlight-text {
+    color: var(--color-accent);
+}
+
+.highlight-text:hover {
+    color: #fff;
+}
+
+p .summary {
+    font-family: Inter;
+    font-size: 1rem;
+}
